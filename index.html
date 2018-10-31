@@ -1,9 +1,231 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8">
     <title>Задача «Про котиков»</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
+
 <body>
+    <section>
+        <input type="checkbox" id="list-view" class="view-mode">
+        <label for="list-view">
+            <img alt="list view" class="view list" src="https://goo.gl/72KRFV">
+            <img alt="grid view" class="view grid" src="https://goo.gl/cA569e">
+        </label>
+        <div class="content">
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/yF4LTg">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Жужик</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 1 год</span>
+                        <br>
+                        <span>Порода: нет</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Дружелюбный, чистый,огромный котик. Требует много пропитания</p>
+                </div>
+            </article>
+
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/zqMymj">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Газетка</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: пол года</span>
+                        <br>
+                        <span>Порода: нет</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Спокойная кошечка, не имеет интереса к жизни
+                    </p>
+                </div>
+            </article>
+
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/dRwHsG">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Ушастик</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 3 месяца</span>
+                        <br>
+                        <span>Порода: нет</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Питается исключительно вискасом со вкусом индейки и бульона
+                    </p>
+                </div>
+            </article>
+
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/zQpqfn">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Пуша</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 2 года</span>
+                        <br>
+                        <span>Порода: нет</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Игривая кошечка, отдаем с лотком</p>
+                </div>
+            </article>
+
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/8yYjyq">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Баффи</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 3 месяца</span>
+                        <br>
+                        <span>Порода: нет</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Грызет все подряд и всех</p>
+                </div>
+            </article>
+
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/jGdXmz">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Варежка</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: пол года</span>
+                        <br>
+                        <span>Порода: нет</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Очень пушистая и линяет</p>
+                </div>
+            </article>
+
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/2mDXRC">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Пискля</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 1 год</span>
+                        <br>
+                        <span>Порода: нет</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Чистая кошечка без болезней, очень любит пищать странным голосом
+                    </p>
+                </div>
+            </article>
+
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/JoPEYx">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Вася</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 1 год</span>
+                        <br>
+                        <span>Порода: нет</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Типичный толстый кот</p>
+                </div>
+            </article>
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/CkWH3D">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Майк</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 1 год</span>
+                        <br>
+                        <span>Порода: Мейн-кун</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Кого-то напоминает</p>
+                </div>
+            </article>
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/Lyqpc3">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Огонек</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 1 год</span>
+                        <br>
+                        <span>Порода: бенгальская</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Похожа на леопарда</p>
+                </div>
+            </article>
+            <article class="block hovered">
+                <img alt="cat" class="cat-image hovered" src="https://goo.gl/Bf9FDz">
+                <div class="cat-info">
+                    <a href="#" class="entry-title">
+                        <h4 class="cat-name">Мисс презрение и огромные уши</h4>
+                    </a>
+                    <p>
+                        <span>Возраст: 1 год</span>
+                        <br>
+                        <span>Порода: Сфинкс</span>
+                        <br>
+                        <span>Болезни: нет</span>
+                        <br>
+                    </p>
+                    <p>Статус: в поисках хозяина</p>
+                    <p class="add-info">Заберите, если нравится кот без шерсти</p>
+                </div>
+            </article>
+        </div>
+
+    </section>
 </body>
+
 </html>

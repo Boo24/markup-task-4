@@ -1,0 +1,116 @@
+body
+{
+    margin: 40px;
+}
+
+.content
+{
+    background-color: #fff;
+    color: #444;
+}
+
+.view
+{
+    width: 2em;
+}
+
+input
+{
+    display: none;
+}
+
+.grid
+{
+    display: none;
+}
+
+.cat-image
+{
+    width: 19em;
+    height: 15em;
+    padding: .5em;
+}
+
+span:hover
+{
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.cat-image:hover
+{
+    transform: scale(1.2);
+}
+
+.hovered:hover
+{
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+a:link
+{
+    text-decoration: none;
+    font: 1.5em italic;
+    color: #444;
+}
+
+a:hover
+{
+    text-shadow: 2px 2px rgba(221, 221, 221, 1);
+}
+
+.add-info
+{
+    display: none;
+}
+
+.block
+{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    margin: .5em;
+    width: 20em;
+}
+
+.cat-name
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+article
+{
+    border: 1px lightgray solid;
+}
+
+input[class='view-mode']:checked ~ .content > .block
+{
+    width: 25em;
+    display: inherit;
+    align-items: center;
+}
+
+input[class='view-mode']:checked ~ .content > .block > .cat-image
+{
+    width: 24em;
+    height: 20em;
+    display: inherit;
+}
+
+input[class='view-mode']:checked ~ .content > .block > .cat-info > .add-info
+{
+    display: initial;
+}
+
+input[class='view-mode']:checked ~ label > .grid
+{
+    display: initial;
+}
+
+input[class='view-mode']:checked ~ label > .list
+{
+    display: none;
+}
